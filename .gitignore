@@ -27,5 +27,17 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Ignorar archivos de VSCode
+.vscode/
+*.vc.db
+*.vscode/browse.vc.db
 
+# Ignorar archivos grandes o innecesarios
+*.log
+*.pyc
+__pycache__/
 
+# Ignorar archivos temporales
+*.swp
+*.bak
+*.tmp
