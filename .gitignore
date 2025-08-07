@@ -1,3 +1,5 @@
+echo ".vscode/browse.vc.db" >> .gitignore
+
 # === ROS 2 ===
 build/
 install/
