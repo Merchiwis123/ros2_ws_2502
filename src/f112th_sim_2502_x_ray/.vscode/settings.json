@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/merchiwis/ros2_ws_2502/build/wall_following_g25",
+        "/home/merchiwis/ros2_ws_2502/install/wall_following_g25/lib/python3.10/site-packages",
+        "/home/merchiwis/ros2_ws_2502/build/follow_the_gap_g25",
+        "/home/merchiwis/ros2_ws_2502/install/follow_the_gap_g25/lib/python3.10/site-packages",
+        "/home/merchiwis/ros2_ws_2502/install/f112th_sim_2502_x_ray/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/merchiwis/ros2_ws_2502/build/wall_following_g25",
+        "/home/merchiwis/ros2_ws_2502/install/wall_following_g25/lib/python3.10/site-packages",
+        "/home/merchiwis/ros2_ws_2502/build/follow_the_gap_g25",
+        "/home/merchiwis/ros2_ws_2502/install/follow_the_gap_g25/lib/python3.10/site-packages",
+        "/home/merchiwis/ros2_ws_2502/install/f112th_sim_2502_x_ray/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

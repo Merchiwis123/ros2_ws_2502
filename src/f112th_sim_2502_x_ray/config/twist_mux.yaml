@@ -1,0 +1,23 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic   : cmd_vel_telop
+        timeout : 0.5
+        priority: 10
+      joystick  : 
+        topic   : cmd_vel_joy
+        timeout : 0.5
+        priority: 100
+      emergencyss  : 
+        topic   : emergency
+        timeout : 0.5
+        priority: 200
+      continuoss:
+        topic   : normal
+        timeout : 0.5
+        priority: 50
+      wall_follow:
+        topic   : cmd_vel_ctrl
+        timeout : 0.5
+        priority: 50

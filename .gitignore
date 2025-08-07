@@ -1,0 +1,19 @@
+echo ".vscode/browse.vc.db" >> .gitignore
+echo ".vscode/" >> .gitignore
+# Ignorar carpetas de colcon
+build/
+install/
+log/
+
+# Ignorar archivos de VSCode
+.vscode/*.db*
+.vscode/*.log*
+.vscode/*.pyc
+
+# Python compiled files
+**/__pycache__/
+**/*.pyc
+
+# ROS2
+*.launch.pyc
+
