@@ -41,3 +41,6 @@ __pycache__/
 *.swp
 *.bak
 *.tmp
+
+# Ignorar archivos grandes de VSCode
+.vscode/browse.vc.db
