@@ -1,19 +1,29 @@
-echo ".vscode/browse.vc.db" >> .gitignore
-echo ".vscode/" >> .gitignore
-# Ignorar carpetas de colcon
+# === ROS 2 ===
 build/
 install/
 log/
+.colcon/
+*.pyc
+__pycache__/
+*.log
+*.egg-info/
 
-# Ignorar archivos de VSCode
-.vscode/*.db*
-.vscode/*.log*
-.vscode/*.pyc
+# === VS Code ===
+.vscode/*.db
+.vscode/*.db-wal
+.vscode/*.db-shm
+.vscode/settings.json
+.vscode/launch.json
 
-# Python compiled files
-**/__pycache__/
-**/*.pyc
+# === Python virtualenv ===
+venv/
+.venv/
 
-# ROS2
-*.launch.pyc
+# === General ===
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+
 
